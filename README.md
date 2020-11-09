@@ -20,7 +20,7 @@ Java实验项目
 
 2.在Java项目中 创建1个包doctor
 
-3.在student包中分别创建Manage接口，Tmanage接口，Doctor类，Sdoctor类
+3.在doctor包中分别创建Manage接口，Tmanage接口，Doctor类，Sdoctor类
 
 4.在Manage学生接口中定义了缴纳学费、查学费的方法
 
@@ -65,24 +65,24 @@ public Doctor() {}
 ```
 4.方法四
 ```
- 	public static void main(String args[]) {
-			Doctor heihei=new Doctor("嘿嘿 ","男",25,5000,6000);
-			if(heihei.xs<5000) {
-				System.out.printf(name);
-				System.out.printf("  性别："+sex);
-				System.out.println("  年龄："+age);
-				System.out.println("学费为"+xf);
-				System.out.println("年薪水为"+xs*2);
+ public static void main(String args[]) {
+	Doctor heihei=new Doctor("嘿嘿 ","男",25,5000,6000);
+		if(heihei.xs<5000) {
+			System.out.printf(name);
+			System.out.printf("  性别："+sex);
+			System.out.println("  年龄："+age);
+			System.out.println("学费为"+xf);
+			System.out.println("年薪水为"+xs*2);
 				
 				
-			}
-			else {
-				System.out.printf(name);
-				System.out.printf("  性别："+sex);
-				System.out.println("  年龄："+age);
-				System.out.println("学费为"+xf);
-				System.out.println("年薪水为"+(xs-(xs-5000)*0.03*2));
-			}
+		}
+		else {
+			System.out.printf(name);
+			System.out.printf("  性别："+sex);
+			System.out.println("  年龄："+age);
+			System.out.println("学费为"+xf);
+			System.out.println("年薪水为"+(xs-(xs-5000)*0.03*2));
+		}
 ```
 
 5.方法五
