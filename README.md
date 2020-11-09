@@ -84,13 +84,8 @@ public Doctor() {}
 				System.out.println("年薪水为"+(xs-(xs-5000)*0.03*2));
 			}
 ```
+
 5.方法五
-```
-public String toString() {
-		return this.id+" "+this.name+" "+this.sex+" ";
-	}
-```
-6.方法六
 ```
 public static void main(String args[]) { 
 	Doctor tor=new Doctor();
@@ -99,7 +94,7 @@ public static void main(String args[]) {
 	}
 
 ```
-7.方法七
+6.方法六
 ```
 
 System.out.printf("姓名：");
@@ -119,7 +114,7 @@ System.out.printf("姓名：");
 
 ```
 
-8.方法八
+7.方法七
 ```
 
 try {
