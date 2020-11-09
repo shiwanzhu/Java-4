@@ -24,45 +24,45 @@ public  class Doctor implements Manage{
 	}
 
 	
-		/*public static void main(String args[]) {
-			Doctor heihei=new Doctor("ºÙºÙ ","ÄÐ",25,5000,6000);
+		public static void main(String args[]) {
+			Doctor heihei=new Doctor("å˜¿å˜¿ ","ç”·",25,5000,6000);
 			if(heihei.xs<5000) {
 				System.out.printf(name);
-				System.out.printf("  ÐÔ±ð£º"+sex);
-				System.out.println("  ÄêÁä£º"+age);
-				System.out.println("Ñ§·ÑÎª"+xf);
-				System.out.println("ÄêÐ½Ë®Îª"+xs*2);
+				System.out.printf("  æ€§åˆ«ï¼š"+sex);
+				System.out.println("  å¹´é¾„ï¼š"+age);
+				System.out.println("å­¦è´¹ä¸º"+xf);
+				System.out.println("å¹´è–ªæ°´ä¸º"+xs*2);
 				
 				
 			}
 			else {
 				System.out.printf(name);
-				System.out.printf("  ÐÔ±ð£º"+sex);
-				System.out.println("  ÄêÁä£º"+age);
-				System.out.println("Ñ§·ÑÎª"+xf);
-				System.out.println("ÄêÐ½Ë®Îª"+(xs-(xs-5000)*0.03*2));
+				System.out.printf("  æ€§åˆ«ï¼š"+sex);
+				System.out.println("  å¹´é¾„ï¼š"+age);
+				System.out.println("å­¦è´¹ä¸º"+xf);
+				System.out.println("å¹´è–ªæ°´ä¸º"+(xs-(xs-5000)*0.03*2));
 			}
 			
-			Doctor haha=new Doctor("¹þ¹þ ","Å®",24,5000,4000);
+			Doctor haha=new Doctor("å“ˆå“ˆ ","å¥³",24,5000,4000);
 			if(haha.xs<5000) {
 				System.out.printf(name);
-				System.out.printf("  ÐÔ±ð:"+sex);
-				System.out.println("  ÄêÁä£º"+age);
-				System.out.println("Ñ§·ÑÎª"+xf);
-				System.out.println("ÄêÐ½Ë®Îª"+xs*2);
+				System.out.printf("  æ€§åˆ«:"+sex);
+				System.out.println("  å¹´é¾„ï¼š"+age);
+				System.out.println("å­¦è´¹ä¸º"+xf);
+				System.out.println("å¹´è–ªæ°´ä¸º"+xs*2);
 			}
 			else {
 				System.out.printf(name);
-				System.out.printf("  ÐÔ±ð:"+sex);
-				System.out.println("  ÄêÁä£º"+age);
-				System.out.println("Ñ§·ÑÎª"+xf);
-				System.out.println("ÄêÐ½Ë®Îª"+(xs-(xs-5000)*0.03*2));
+				System.out.printf("  æ€§åˆ«:"+sex);
+				System.out.println("  å¹´é¾„ï¼š"+age);
+				System.out.println("å­¦è´¹ä¸º"+xf);
+				System.out.println("å¹´è–ªæ°´ä¸º"+(xs-(xs-5000)*0.03*2));
 		
 			}
 			
 			
 			
-		}*/
+		}
 		@Override
 		public void Sudentjf(double f) {
 			// TODO Auto-generated method stub
