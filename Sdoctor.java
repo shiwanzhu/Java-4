@@ -12,16 +12,19 @@ public class Sdoctor implements Manage{
 	public static void main(String args[]) { 
 	Doctor tor=new Doctor();
 	Scanner sc=new Scanner(System.in);
-	System.out.printf("ĞÕÃû£º");
+	System.out.printf("å§“åï¼š");
 	tor.name=sc.next();
+		
+	System.out.printf("æ€§åˆ«ï¼š");
+	tor.sex=sc.next();
 	
-	System.out.printf("ÄêÁä£º");
+	System.out.printf("å¹´é¾„ï¼š");
 	tor.age=sc.nextInt();
 	
-	System.out.println("Ñ§·ÑÎª");
+	System.out.println("å­¦è´¹ä¸º");
 	tor.xf=sc.nextDouble();
 	
-	System.out.println("Ğ½Ë®Îª");
+	System.out.println("è–ªæ°´ä¸º");
 	tor.xs=sc.nextDouble();
 	
 	try {
